@@ -1,0 +1,33 @@
+# Radio
+bin/netmgrd
+bin/qmuxd
+bin/radish
+bin/rfs_access
+bin/rmt_storage
+lib/libril.so
+lib/librmnetctl.so
+lib/libuicc.so
+lib/libvss_common_idl.so
+lib/libvss_common_iface.so
+lib/libvss_nv_idl.so
+lib/libvss_nv_iface.so
+lib/libvss_resim_idl.so
+lib/libvss_resim_iface.so
+vendor/lib/libcneapiclient.so
+vendor/lib/libconfigdb.so
+vendor/lib/libmdmdetect.so
+vendor/lib/libnetmgr.so
+vendor/lib/libperipheral_client.so
+vendor/lib/libril-qc-qmi-1.so
+vendor/lib/libril-qcril-hook-oem.so
+vendor/lib/libsystem_health_mon.so
+vendor/lib/libxml.so
+
+# Venus (media) firmware
+etc/firmware/venus.b00
+etc/firmware/venus.b01
+etc/firmware/venus.b02
+etc/firmware/venus.b03
+etc/firmware/venus.b04
+etc/firmware/venus.mbn
+etc/firmware/venus.mdt
