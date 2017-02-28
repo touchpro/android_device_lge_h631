@@ -23,7 +23,7 @@ TARGET_OTA_ASSERT_DEVICE := g4stylus,h631
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/h631/bluetooth
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_h631_defconfig
+TARGET_KERNEL_CONFIG := lineage_h631_defconfig
 
 # NFC
 BOARD_NFC_CHIPSET := pn547
