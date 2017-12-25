@@ -20,7 +20,11 @@ include device/lge/msm8916-common/BoardConfigCommon.mk
 LOCAL_PATH := device/lge/h631
 
 # OTA
-TARGET_OTA_ASSERT_DEVICE := g4stylus,h631
+TARGET_OTA_ASSERT_DEVICE := g4stylus,h631,ms631
+
+
+# CMHW
+BOARD_USES_CYANOGEN_HARDWARE := true
 
 #Kernel
 TARGET_KERNEL_CONFIG := h631_defconfig
