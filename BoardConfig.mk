@@ -49,7 +49,3 @@ TARGET_PROVIDES_LIBLIGHT := true
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.qcom
-
-
-# inherit from common lge
--include device/lge/common/BoardConfigCommon.mk
