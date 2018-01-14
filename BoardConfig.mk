@@ -25,6 +25,9 @@ TARGET_OTA_ASSERT_DEVICE := g4stylus,h631,ms631
 
 # CMHW
 BOARD_USES_CYANOGEN_HARDWARE := true
+TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/lge_touch/tap2wake"
+
+
 
 #Kernel
 TARGET_KERNEL_CONFIG := h631_defconfig
@@ -46,3 +49,7 @@ TARGET_PROVIDES_LIBLIGHT := true
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.qcom
+
+
+# inherit from common lge
+-include device/lge/common/BoardConfigCommon.mk
